@@ -2,7 +2,7 @@ Exercise: 2. Running your second container
 
 Step 1.
     Kim@LAPTOP-Q1211I1D MINGW64
-    $ docker run -it ubuntu bash
+    $ docker container run -it ubuntu bash
     Unable to find image 'ubuntu:latest' locally
     latest: Pulling from library/ubuntu
     a3679419df18: Pull complete
@@ -21,7 +21,7 @@ Step 3.
     root@329eb0f16aa2:/usr/src/app# ls
     index.js
     root@329eb0f16aa2:/usr/src/app#
-    
+
 Step 4.
     root@329eb0f16aa2:/# exit
     exit
