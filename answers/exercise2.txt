@@ -1,0 +1,34 @@
+Exercise: 2. Running your second container
+
+Step 1.
+    Kim@LAPTOP-Q1211I1D MINGW64
+    $ docker run -it ubuntu bash
+    Unable to find image 'ubuntu:latest' locally
+    latest: Pulling from library/ubuntu
+    a3679419df18: Pull complete
+    ed819469700f: Pull complete
+    e16351a257e4: Download complete
+    Digest: sha256:3131b4cc82a783df6c9df078f86e01819a13594b865c2cad47bd1bca2b7063bb
+    Status: Downloaded newer image for ubuntu:latest
+    root@329eb0f16aa2:/#
+
+Step 2.
+    root@329eb0f16aa2:/# mkdir /usr/src/app
+
+Step 3.
+    root@329eb0f16aa2:/# touch /usr/src/app/index.js
+    root@329eb0f16aa2:/# cd /usr/src/app
+    root@329eb0f16aa2:/usr/src/app# ls
+    index.js
+    root@329eb0f16aa2:/usr/src/app#
+    
+Step 4.
+    root@329eb0f16aa2:/# exit
+    exit
+
+    What's next:
+    Try Docker Debug for seamless, persistent debugging tools in any container or image → docker debug jolly_knuth
+    Learn more at https://docs.docker.com/go/debug-cli/
+
+    Kim@LAPTOP-Q1211I1D MINGW64 ~
+    $
