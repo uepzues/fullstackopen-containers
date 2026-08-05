@@ -1,4 +1,4 @@
-FROM node:24
+FROM node:lts-trixie-slim
 
 WORKDIR /usr/src/app
 
